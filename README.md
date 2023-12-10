@@ -107,4 +107,4 @@ action(type="omfwd" protocol="tcp" target="[your-syslog-server-IP]" port="6514" 
 
 # Watch the full stream video of developing this procedure
 
-[![Alpine Linux on Raspberry Pi: Remote Syslog with TLS Encryption]([https://youtube.com/live/Nh8Up-d_8go/0.jpg)](https://youtube.com/live/Nh8Up-d_8go)
+[![Alpine Linux on Raspberry Pi: Remote Syslog with TLS Encryption](https://img.youtube.com/vi/Nh8Up-d_8go/0.jpg)](https://youtube.com/live/Nh8Up-d_8go)
