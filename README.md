@@ -2,6 +2,7 @@
 Remote Syslog with TLS Encryption as seen on XtendedGreg YouTube Channel Stream: https://youtube.com/live/Nh8Up-d_8go
 
 Note: This code assumes that you have Alpine Linux installed with a basic configuration for network access like with using the method in the video below.
+
 [![Link to installation of Alpine Linux on Raspberry Pi youtube video](https://img.youtube.com/vi/jhtXjLUZB9g/0.jpg)](https://youtu.be/jhtXjLUZB9g)
 
 # Basic Setup
@@ -105,4 +106,5 @@ action(type="omfwd" protocol="tcp" target="[your-syslog-server-IP]" port="6514" 
 - Save configuration with LBU ```lbu commit -d```
 
 # Watch the full stream video of developing this procedure
+
 [![Alpine Linux on Raspberry Pi: Remote Syslog with TLS Encryption]([https://img.youtube.com/vi/jhtXjLUZB9g](https://youtube.com/live/Nh8Up-d_8go)/0.jpg)]([https://youtu.be/jhtXjLUZB9g](https://youtube.com/live/Nh8Up-d_8go)https://youtube.com/live/Nh8Up-d_8go)
