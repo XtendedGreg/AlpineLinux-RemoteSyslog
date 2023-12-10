@@ -101,7 +101,7 @@ action(type="omfwd" protocol="tcp" target="[your-syslog-server-IP]" port="6514" 
 - Restart rsyslog service ```rc-service rsyslog restart```
 - Add rsyslog to start on boot ```rc-update add rsyslog default```
 - Test Client
-   - Run the following command ```logger "Test log from client"```
+   - Run the following command ```logger "TLS Test log from client"```
    - Check /var/log/messages on the SERVER for the test message ```tail /var/log/messages```
 - Save configuration with LBU ```lbu commit -d```
 
