@@ -1,6 +1,9 @@
 # AlpineLinux-RemoteSyslog
 Remote Syslog with TLS Encryption as seen on XtendedGreg YouTube Channel Stream: https://youtube.com/live/Nh8Up-d_8go
 
+Note: This code assumes that you have Alpine Linux installed with a basic configuration for network access like with using the method in the video below.
+https://youtu.be/jhtXjLUZB9g
+
 # Basic Setup
 ## Server
 - Install packages ```apk add rsyslog util-linux```
