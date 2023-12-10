@@ -5,12 +5,12 @@ Remote Syslog with TLS Encryption as seen on XtendedGreg YouTube Channel Stream:
 ## Server
 - Install packages ```apk add rsyslog util-linux```
 - Edit the rsyslog Configuration File ```vi /etc/rsyslog.conf```
- -- Add the following to the bottom of /etc/rsyslog.conf in insert mode (press "i" and an I should show in the bottom left corner)
+  - Add the following to the bottom of /etc/rsyslog.conf in insert mode (press "i" and an I should show in the bottom left corner)
 ```
 module(load="imudp")
 input(type="imudp" port="514")
 ```
- - Write changes to file and exit vim (press "esc" key, then type ```:wq``` and press "enter")
+  - Write changes to file and exit vim (press "esc" key, then type ```:wq``` and press "enter")
 - Restart rsyslog service ```rc-service rsyslog restart```
 - Add rsyslog to start on boot ```rc-update add rsyslog default```
 - Test Server
